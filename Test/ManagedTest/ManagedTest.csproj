@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -137,12 +137,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="StrongName.snk" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\EasyHook\EasyHook.csproj">
-      <Project>{AB53862B-3B5C-4EFC-9787-1F01199EBFBF}</Project>
-      <Name>EasyHook</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">

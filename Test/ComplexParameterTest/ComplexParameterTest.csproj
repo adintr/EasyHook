@@ -114,10 +114,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\EasyHook\EasyHook.csproj">
-      <Project>{AB53862B-3B5C-4EFC-9787-1F01199EBFBF}</Project>
-      <Name>EasyHook</Name>
-    </ProjectReference>
     <ProjectReference Include="..\ComplexParameterInject\ComplexParameterInject.csproj">
       <Project>{86354361-2016-4CB7-81B0-A980A1480791}</Project>
       <Name>ComplexParameterInject</Name>
