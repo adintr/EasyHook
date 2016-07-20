@@ -434,6 +434,11 @@ DRIVER_SHARED_API(NTSTATUS, LhBarrierCallStackTrace(
 
 	typedef struct _GACUTIL_INFO_* HGACUTIL;
 
+#ifdef _WIN64
+#pragma comment(lib, "EasyHook64.lib")
+#else
+#pragma comment(lib, "EasyHook32.lib")
+#endif // _Win64
 
 #endif // !DRIVER
 
